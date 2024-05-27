@@ -97,7 +97,7 @@
 	.link-animated {
 		position: relative;
 	}
-	.link-animated::after {
+	.link-animated::before {
 		content: '';
 		position: absolute;
 		top: 95%;
@@ -107,7 +107,8 @@
 		background-color: currentColor;
 		transition: 0.25s;
 	}
-	.link-animated:hover::after {
+	.active-link::before,
+	.link-animated:hover::before {
 		left: 0;
 		width: 100%;
 	}
