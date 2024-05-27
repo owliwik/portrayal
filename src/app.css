@@ -82,7 +82,7 @@
 		box-shadow: 0 0 6px 4px hsl(var(--primary) / 0.08);
 	}
 	.btn:active {
-    transition: 0.06s;
+		transition: 0.08s;
 		transform: scale(0.98);
 	}
 
@@ -97,7 +97,7 @@
 	.link-animated {
 		position: relative;
 	}
-	.link-animated::before {
+	.link-animated::after {
 		content: '';
 		position: absolute;
 		top: 95%;
@@ -107,7 +107,7 @@
 		background-color: currentColor;
 		transition: 0.25s;
 	}
-	.link-animated:hover::before {
+	.link-animated:hover::after {
 		left: 0;
 		width: 100%;
 	}

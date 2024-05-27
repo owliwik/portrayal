@@ -22,7 +22,7 @@
 
 					<div>
 						<Label for="pw-input">Your Password</Label>
-						<Input id="pw-input" class="bg-opacity-75" />
+						<Input type="password" id="pw-input" class="bg-opacity-75" />
 					</div>
 
 					<div class="remember-wrap">

@@ -44,16 +44,16 @@
 		</a>
 	</nav>
 
-	<Button variant="outline">
-    <a href="/auth">My Profile</a>
-  </Button>
+	<a href="/auth">
+    <Button variant="outline">My Profile</Button>
+  </a>
 </header>
 
 <style>
 	.header {
 		width: 100%;
-    max-width: 1400px;
-    align-self: center;
+		max-width: 1400px;
+		align-self: center;
 		padding: 1rem 2rem;
 		display: flex;
 		justify-content: space-between;
@@ -78,7 +78,7 @@
 		font-weight: 300;
 	}
 
-	.active-link::before {
+	.active-link::after {
 		left: 0;
 		width: 100%;
 	}
