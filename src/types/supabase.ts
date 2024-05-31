@@ -17,6 +17,7 @@ export type Database = {
           is_formal: boolean
           name: string
           presidents: string[]
+          tags: string[] | null
           wechat_contact: string | null
         }
         Insert: {
@@ -26,6 +27,7 @@ export type Database = {
           is_formal: boolean
           name: string
           presidents?: string[]
+          tags?: string[] | null
           wechat_contact?: string | null
         }
         Update: {
@@ -35,6 +37,7 @@ export type Database = {
           is_formal?: boolean
           name?: string
           presidents?: string[]
+          tags?: string[] | null
           wechat_contact?: string | null
         }
         Relationships: []
