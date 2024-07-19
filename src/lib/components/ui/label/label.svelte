@@ -11,8 +11,9 @@
 
 <LabelPrimitive.Root
 	class={cn(
-		"text-[0.92rem] font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
-		className
+		"text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+		className,
+		"block my-2"
 	)}
 	{...$$restProps}
 	on:mousedown
